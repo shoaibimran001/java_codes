@@ -18,8 +18,7 @@ public class first_p1 {
         // System.out.println("the sum of this :" + (a+b));
         String str = sc.nextLine();
         System.out.println(str);
-        
-
-
+         sc.close();
+         
     }
 }

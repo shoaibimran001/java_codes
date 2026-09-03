@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class bill_Generator {
-    public static void main(String[] args){
+        public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Customer Name :");
         String name = sc.nextLine();
@@ -26,7 +26,7 @@ public class bill_Generator {
               price3 = sc.nextInt();
               sc.nextLine();  
 
-              //claculation 
+              
             double total = price1+price2+price3;
             double gst = total * 18 / 100;
             
@@ -43,8 +43,7 @@ public class bill_Generator {
             System.out.println(item3 + "="+ price3);
 
             System.out.println("Final Bill = " +(total +gst));
-
-
+             sc.close();
     }
 
 }
