@@ -21,15 +21,16 @@ public class bill_Generator {
          sc.nextLine();  
         //  item 3 
         
-              System.out.println(" Item 3 Name and Price");
-              item3 = sc.nextLine();
-              price3 = sc.nextInt();
-              sc.nextLine();  
+        
+        System.out.println(" Item 3 Name and Price");
+        item3 = sc.nextLine();
+        price3 = sc.nextInt();
+        sc.nextLine();  
 
-              
-            double total = price1+price2+price3;
-            double gst = total * 18 / 100;
-            
+         
+        double total = price1+price2+price3;
+        double gst = total * 18 / 100;
+           
 
 
 
@@ -38,9 +39,14 @@ public class bill_Generator {
             System.out.println("Total = " +total);
             System.out.println("Gst = " +gst);
 
+
+
+            
             System.out.println(item1 + "="+ price1);
             System.out.println(item2 + "="+ price2);
             System.out.println(item3 + "="+ price3);
+
+
 
             System.out.println("Final Bill = " +(total +gst));
              sc.close();

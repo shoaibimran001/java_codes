@@ -8,5 +8,7 @@
 			"path": "../../javagit/JavaCodes"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javacodes"
+	}
 }
