@@ -1,1 +1,3 @@
-ystem.out.println(name.replace("hob" , "ohl"));
+
+    //     String ucase = name.toUpperCase();
+    //     System.out.println(ucase);
