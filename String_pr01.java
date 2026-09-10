@@ -8,7 +8,7 @@ public class String_pr01 {
         // System.out.println(name.toLowerCase());
 
 
-        // // Q2 : replace sapace with "_"
+        // // Q2 : replace space with "_"
 
         // String text = "my name is shoaib";
         // text = text.replace(" " , "_");
