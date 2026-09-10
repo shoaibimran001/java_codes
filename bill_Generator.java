@@ -8,7 +8,7 @@ public class bill_Generator {
        
         int price1,price2,price3;
         String item1,item2,item3;
-        System.out.println(" Item 1 Name and Price");
+        System.out.println(" Item 1 Name & Price");
         item1 = sc.nextLine();
         price1 = sc.nextInt();
         sc.nextLine();  
@@ -49,6 +49,8 @@ public class bill_Generator {
 
 
             System.out.println("Final Bill = " +(total +gst));
+
+            System.out.println("thank you for visiting");
              sc.close();
     }
 
