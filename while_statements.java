@@ -6,7 +6,19 @@ public class while_statements {
             System.out.println(i);
             i++;
 
+
+            
+
         }
     }
     
 }
+
+
+
+
+
+
+
+
+

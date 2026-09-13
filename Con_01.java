@@ -17,7 +17,7 @@ public class Con_01 {
         // }
 
 
-        //=====switch conditions=====
+        // =====switch conditions=====
 
         age = 70;
         switch(age){

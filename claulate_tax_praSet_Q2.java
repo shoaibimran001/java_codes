@@ -30,8 +30,7 @@ public class claulate_tax_praSet_Q2 {
             tax = tax + 0.20f * (10.0f - 5.0f);
             tax = tax + 0.30f * (income - 10.0f);
         }
-
-        System.out.println("The total tax to be paid is: " + tax + " lakhs");
+           System.out.println("The total tax to be paid is: " + tax + " lakhs");
     }
 }
 
