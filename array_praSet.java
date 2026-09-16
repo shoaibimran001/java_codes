@@ -134,14 +134,7 @@ public class array_praSet {
         System.out.println("The array is not sorted ");
     }
 
-
     
-
-    
-
-
-
-
     }
 }
 
