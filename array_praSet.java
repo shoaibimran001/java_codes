@@ -93,15 +93,15 @@ public class array_praSet {
 
             //practice problem - 6
 
-    //    int [] arr={1, 2, 3, 4, 10, 6,7};
-    //    int max = 0;
-    //    for(int e:arr){
-    //     if(e>max){
-    //         max = e;
+       int [] arr={1, 2, 3, 4, 10, 6,7};
+       int max = 0;
+       for(int e:arr){
+        if(e>max){
+            max = e;
 
-    //     }
-    // }
-    // System.out.println(max);
+        }
+    }
+    System.out.println(max);
 
 
     // practice problem -7
@@ -119,20 +119,20 @@ public class array_praSet {
 
             //practice problem -8
 
-    int [] arr={1, 2, 3, 4, 6,7};
-    boolean isSorted = true;
-    for(int i=0;i<arr.length-1;i++){
-        if(arr[i]>arr[i+1]){
-            isSorted = false;
-            break;
-        }
-    }
-    if(isSorted){
-        System.out.println("The array is sorted");
-    }
-    else{
-        System.out.println("The array is not sorted ");
-    }
+    // int [] arr={1, 2, 3, 4, 6,7};
+    // boolean isSorted = true;
+    // for(int i=0;i<arr.length-1;i++){
+    //     if(arr[i]>arr[i+1]){
+    //         isSorted = false;
+    //         break;
+    //     }
+    // }
+    // if(isSorted){
+    //     System.out.println("The array is sorted");
+    // }
+    // else{
+    //     System.out.println("The array is not sorted ");
+    // }
 
     
     }
